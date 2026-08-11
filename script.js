@@ -1,0 +1,1 @@
+const b=document.getElementById('menu'),n=document.getElementById('links');b.onclick=()=>n.style.display=n.style.display==='flex'?'none':'flex';n.querySelectorAll('a').forEach(a=>a.onclick=()=>n.style.display='none');
